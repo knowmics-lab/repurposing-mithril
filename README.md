@@ -1,4 +1,4 @@
-# Algorithm Report: Network-Enhanced Connectivity Score
+# NetCoS: Network-Enhanced Connectivity Score
 
 The network-enhanced connectivity score compares the gene signature of a specific biological process—such as transcriptomics data from patients with a particular disease—to the gene signatures of reference drugs. It leverages interactomics by projecting this data into a network space encompassing protein-protein, protein-metabolite, and protein-mRNA interactions, and propagates signals across the network. The algorithm then calculates a similarity score between each drug and the process of interest, ultimately ranking the drugs based on their similarity. A visual representation of this pipeline is shown in Figure 1.
 
